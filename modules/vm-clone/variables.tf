@@ -200,9 +200,9 @@ variable "vnic_model" {
 }
 
 variable "vnic_bridge" {
-  description = "Networking adapter bridge, e.g. `vmbr0`."
+  description = "Networking adapter bridge, e.g. `vmbr1`."
   type        = string
-  default     = "vmbr0"
+  default     = "vmbr1"
 }
 
 variable "vlan_tag" {
