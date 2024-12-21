@@ -208,7 +208,7 @@ variable "vnic_bridge" {
 variable "vlan_tag" {
   description = "Networking adapter VLAN tag."
   type        = string
-  default     = ""
+  default     = "0"
 }
 
 ### Cloud-init Variables
