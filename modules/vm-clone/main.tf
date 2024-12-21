@@ -17,7 +17,6 @@ resource "proxmox_virtual_environment_vm" "vm" {
   bios          = var.bios
   machine       = var.machine
   tablet_device = var.tablet
-  datastore_id  = var.datastore_id
 
   operating_system {
     type = var.os_type
