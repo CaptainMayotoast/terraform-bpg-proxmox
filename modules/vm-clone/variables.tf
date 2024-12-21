@@ -218,6 +218,12 @@ variable "ci_user" {
   default     = null
 }
 
+variable "ci_password" {
+  description = "Cloud-init 'default' user password."
+  type        = string
+  default     = "password"
+}
+
 variable "ci_ssh_key" {
   description = "File path to SSH key for 'default' user, e.g. `~/.ssh/id_ed25519.pub`."
   type        = string
