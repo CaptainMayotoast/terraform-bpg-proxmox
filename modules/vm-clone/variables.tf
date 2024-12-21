@@ -271,3 +271,9 @@ variable "ci_vendor_data" {
   type        = string
   default     = null
 }
+
+variable "datastore_id" {
+  description = "Add a custom data store ID, e.g. `local-zfs`"
+  type        = string
+  default     = "local-zfs"
+}
