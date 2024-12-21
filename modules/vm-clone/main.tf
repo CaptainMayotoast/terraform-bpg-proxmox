@@ -92,7 +92,6 @@ resource "proxmox_virtual_environment_vm" "vm" {
     meta_data_file_id    = var.ci_meta_data
     network_data_file_id = var.ci_network_data
     user_data_file_id    = var.ci_user_data
-    ci_password          = var.ci_password
     vendor_data_file_id  = var.ci_vendor_data
     datastore_id         = var.datastore_id
 
